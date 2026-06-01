@@ -1,0 +1,9 @@
+# Write a program to find factorial of a number.
+num=int(input("Enter a number:"))
+fact=1
+for i in range (1,num+1):
+    fact=fact*i
+print(" factorial of ",num, "is",fact)
+
+#input:5
+#output: factorial of 5 is 120
