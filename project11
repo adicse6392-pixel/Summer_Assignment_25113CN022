@@ -1,0 +1,14 @@
+# write a program to find GCD of two number.
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+while num2 != 0:
+    num1, num2 = num2, num1 % num2
+
+print("GCD =", num1)
+
+#input
+# Enter first number: 48
+# Enter second number: 18
+#output
+# GCD = 6
